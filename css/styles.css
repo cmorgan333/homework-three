@@ -180,16 +180,106 @@ footer .socials .twitter {
   width: 1280px;
   height: 890px;
   margin: 0 auto;
-  background-color: yellowgreen;
+  justify-content: space-around;
 }
 .booking-form h1 {
-  width: 300px;
-  margin-left: 202px;
+  width: 1280px;
+  padding-left: 202px;
   margin-top: 50px;
-  height: 73px;
+  height: 50px;
   font-family: ProximaNova;
   font-size: 40px;
+}
+.booking-form .info-fields {
+  width: 1280px;
+  height: 140px;
+  display: flex;
+}
+.booking-form .info-fields .field-one-container {
+  width: 375px;
+  height: 140px;
+  background-color: turquoise;
+  margin-left: 202px;
+}
+.booking-form .info-fields .field-two-container {
+  width: 500px;
+  height: 140px;
+  background-color: violet;
+}
+.booking-form .checkin-fields {
+  width: 1280px;
+  height: 140px;
+  margin-top: 25px;
+  display: flex;
+}
+.booking-form .checkin-fields .text-one {
+  width: 150px;
+  height: 140px;
+  background-color: turquoise;
+  margin-left: 202px;
+}
+.booking-form .checkin-fields .text-two {
+  width: 725px;
+  height: 140px;
+  background-color: violet;
+}
+.booking-form .people-fields {
+  width: 1280px;
+  height: 60px;
+  margin-top: 25px;
+  display: flex;
+  margin-top: 25px;
+  padding-left: 195px;
+  padding-right: 195px;
+  justify-content: space-around;
+}
+.booking-form .people-fields .adult-container {
+  width: 280px;
+  height: 60px;
+  background-color: yellowgreen;
+}
+.booking-form .people-fields .children-container {
+  width: 280px;
+  height: 60px;
   background-color: teal;
+}
+.booking-form .people-fields .rooms-container {
+  width: 280px;
+  height: 60px;
+  background-color: purple;
+}
+.booking-form .message-container {
+  width: 1280px;
+  height: 200px;
+  margin-top: 25px;
+}
+.booking-form .message-container .message-field {
+  width: 875px;
+  height: 200px;
+  background-color: violet;
+  margin: 0 auto;
+}
+.booking-form .submit-button-container {
+  width: 1280px;
+  height: 60px;
+  margin-top: 25px;
+}
+.booking-form .submit-button-container .submit-button {
+  width: 875px;
+  height: 60px;
+  margin: 0 auto;
+  background-color: #79addc;
+  border-radius: 30px;
+}
+.booking-form .submit-button-container p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  height: 20px;
+  width: 30px;
+  text-align: center;
+  padding-top: 15px;
+  margin: 0 auto;
 }
 
 nav {
