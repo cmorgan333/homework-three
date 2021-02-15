@@ -2,7 +2,8 @@
   width: 1280px;
   height: 890px;
   margin: 0 auto;
-  justify-content: space-around;
+  // display: flex;
+  // justify-content: space-around;
 
   h1 {
     width: 1280px;
@@ -24,14 +25,33 @@
     .field-one-container {
       width: 375px;
       height: 140px;
-      background-color: turquoise;
       margin-left: 202px;
+
+      input {
+        width: 360px;
+        height: 50px;
+        border: solid $blue 1px;
+        margin-bottom: 15px;
+      }
     }
 
     .field-two-container {
       width: 500px;
       height: 140px;
-      background-color: violet;
+
+      #field-two {
+        width: 500px;
+        height: 50px;
+        border: solid $blue 1px;
+        margin-bottom: 15px;
+      }
+
+      #field-four {
+        width: 500px;
+        height: 50px;
+        border: solid $blue 1px;
+        margin-bottom: 15px;
+      }
     }
   }
   //===================CHECK-IN FIELDS==============//
@@ -44,14 +64,48 @@
     .text-one {
       width: 150px;
       height: 140px;
-      background-color: turquoise;
       margin-left: 202px;
+
+      .check-in {
+        height: 60px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        opacity: 0.6;
+        font-size: 18px;
+        color: $black;
+        margin-top: 15px;
+      }
+
+      .check-out {
+        height: 60px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        opacity: 0.6;
+        font-size: 18px;
+        color: $black;
+        // margin-top: 10px;
+      }
     }
 
-    .text-two {
+    // ========date fields================//
+
+    .dates {
       width: 725px;
       height: 140px;
-      background-color: violet;
+
+      #field-five {
+        width: 725px;
+        height: 50px;
+        border: solid $blue 1px;
+        margin-bottom: 15px;
+      }
+
+      #field-six {
+        width: 725px;
+        height: 50px;
+        border: solid $blue 1px;
+        margin-bottom: 15px;
+      }
     }
   }
   // ================PEOPLE FIELDS================//
@@ -62,26 +116,77 @@
     margin-top: 25px;
     display: flex;
     margin-top: 25px;
-    padding-left: 195px;
-    padding-right: 195px;
+    padding-left: 135px;
+    padding-right: 135px;
     justify-content: space-around;
 
+    // ============ADULT CONTAINER==============//
+
     .adult-container {
-      width: 280px;
-      height: 60px;
-      background-color: yellowgreen;
+      width: 200px;
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+
+      .adult-text {
+        width: 150px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        opacity: 0.6;
+        margin-top: 10px;
+      }
+
+      .adult-field {
+        width: 105px;
+        height: 40px;
+        border: solid $blue 1px;
+      }
     }
+
+    // =============CHILDREN CONTAINER==========//
 
     .children-container {
-      width: 280px;
+      width: 200px;
       height: 60px;
-      background-color: teal;
+      display: flex;
+      justify-content: space-between;
+
+      .children-text {
+        width: 150px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        opacity: 0.6;
+        margin-top: 10px;
+      }
+
+      .children-field {
+        width: 105px;
+        height: 40px;
+        border: solid $blue 1px;
+      }
     }
 
+    // ============ROOMS CONTAINER==============//
+
     .rooms-container {
-      width: 280px;
+      width: 200px;
       height: 60px;
-      background-color: purple;
+      display: flex;
+      justify-content: space-between;
+
+      .rooms-text {
+        width: 150px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        opacity: 0.6;
+        margin-top: 10px;
+      }
+
+      .rooms-field {
+        width: 105px;
+        height: 40px;
+        border: solid $blue 1px;
+      }
     }
   }
   // =============MESSAGE FIELD======================//
@@ -94,9 +199,9 @@
     .message-field {
       width: 875px;
       height: 200px;
-      background-color: violet;
       // margin-left: 202px;
       margin: 0 auto;
+      border: solid $blue 1px;
     }
   }
   // =============SUBMIT-BUTTON====================//
@@ -104,7 +209,7 @@
   .submit-button-container {
     width: 1280px;
     height: 60px;
-    margin-top: 25px;
+    margin-top: 35px;
 
     .submit-button {
       width: 875px;
