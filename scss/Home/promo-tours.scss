@@ -1,2 +1,134 @@
 .promo-tours {
+  width: 1280px;
+  height: 304px;
+  margin: -50px auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 160px;
+  padding-right: 160px;
+
+  .promos {
+    height: 304px;
+    width: 236px;
+    background-image: linear-gradient(to right, $overlay, $overlay);
+    // background-position: center;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+
+    .promo-one {
+      background-image: linear-gradient(to right, $overlay, $overlay),
+        url(../assets/tour/tour-01.jpg);
+      height: 304px;
+      width: 236px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 0 auto;
+      font-family: ProximaNova;
+      font-size: 30px;
+      color: $white;
+
+      .promo-content {
+        height: 210px;
+        width: 120px;
+        margin: 0 auto;
+        // font-family: ProximaNova;
+        // font-size: 30px;
+        // color: $white;
+      }
+
+      h1 {
+        margin: 0 auto;
+      }
+
+      h2 {
+        font-size: 15px;
+        margin: 0 auto;
+      }
+
+      p {
+        font-size: 10px;
+        margin: 0 auto;
+      }
+    }
+
+    .promo-two {
+      background-image: linear-gradient(to right, $overlay, $overlay),
+        url(../assets/tour/tour-02.jpg);
+      height: 304px;
+      width: 236px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 0 auto;
+      font-family: ProximaNova;
+      font-size: 30px;
+      color: $white;
+
+      .promo-content {
+        height: 210px;
+        width: 120px;
+        margin: 0 auto;
+      }
+
+      h1 {
+        margin: 0 auto;
+      }
+
+      // h1 {
+      //   font-family: ProximaNova;
+      //   font-size: 60px;
+      // }
+
+      h2 {
+        font-family: ProximaNova;
+        font-size: 15px;
+      }
+
+      p {
+        font-size: 10px;
+        margin: 0 auto;
+      }
+    }
+
+    .promo-three {
+      background-image: linear-gradient(to right, $overlay, $overlay),
+        url(../assets/tour/tour-03.jpg);
+      height: 304px;
+      width: 236px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 0 auto;
+      font-family: ProximaNova;
+      font-size: 30px;
+      color: $white;
+
+      .promo-content {
+        height: 210px;
+        width: 120px;
+        margin: 0 auto;
+
+        // h1 {
+        //   font-family: ProximaNova;
+        //   font-size: 60px;
+        // }
+
+        h1 {
+          margin: 0 auto;
+        }
+
+        h2 {
+          font-family: ProximaNova;
+          font-size: 15px;
+          margin: 0 auto;
+        }
+
+        p {
+          font-size: 10px;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
 }

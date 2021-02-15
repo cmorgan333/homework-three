@@ -23,12 +23,226 @@ p {
   font-family: Gill;
   src: url(fonts/GillSans.ttc);
 }
+@font-face {
+  font-family: ProximaNova;
+  src: url(fonts/Proxima-Nova-Thinone.otf);
+}
 .hero {
   width: 1280px;
   height: 500px;
+  padding-top: 20px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/hero.jpg);
   margin: 0 auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.promo-tours {
+  width: 1280px;
+  height: 304px;
+  margin: -50px auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 160px;
+  padding-right: 160px;
+}
+.promo-tours .promos {
+  height: 304px;
+  width: 236px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+.promo-tours .promos .promo-one {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-01.jpg);
+  height: 304px;
+  width: 236px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  font-family: ProximaNova;
+  font-size: 30px;
+  color: #ffffff;
+}
+.promo-tours .promos .promo-one .promo-content {
+  height: 210px;
+  width: 120px;
+  margin: 0 auto;
+}
+.promo-tours .promos .promo-one h1 {
+  margin: 0 auto;
+}
+.promo-tours .promos .promo-one h2 {
+  font-size: 15px;
+  margin: 0 auto;
+}
+.promo-tours .promos .promo-one p {
+  font-size: 10px;
+  margin: 0 auto;
+}
+.promo-tours .promos .promo-two {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-02.jpg);
+  height: 304px;
+  width: 236px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  font-family: ProximaNova;
+  font-size: 30px;
+  color: #ffffff;
+}
+.promo-tours .promos .promo-two .promo-content {
+  height: 210px;
+  width: 120px;
+  margin: 0 auto;
+}
+.promo-tours .promos .promo-two h1 {
+  margin: 0 auto;
+}
+.promo-tours .promos .promo-two h2 {
+  font-family: ProximaNova;
+  font-size: 15px;
+}
+.promo-tours .promos .promo-two p {
+  font-size: 10px;
+  margin: 0 auto;
+}
+.promo-tours .promos .promo-three {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-03.jpg);
+  height: 304px;
+  width: 236px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  font-family: ProximaNova;
+  font-size: 30px;
+  color: #ffffff;
+}
+.promo-tours .promos .promo-three .promo-content {
+  height: 210px;
+  width: 120px;
+  margin: 0 auto;
+}
+.promo-tours .promos .promo-three .promo-content h1 {
+  margin: 0 auto;
+}
+.promo-tours .promos .promo-three .promo-content h2 {
+  font-family: ProximaNova;
+  font-size: 15px;
+  margin: 0 auto;
+}
+.promo-tours .promos .promo-three .promo-content p {
+  font-size: 10px;
+  margin: 0 auto;
+}
+
+footer {
+  width: 1280px;
+  height: 100px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .icon {
+  width: 92px;
+  height: 42px;
+  margin-left: 150px;
+  background-image: url(../assets/icons/logo-white.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+footer .copywright {
+  width: 216px;
+  height: 14px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+}
+footer .socials {
+  width: 121px;
+  height: 23px;
+  background-color: purple;
+  margin-right: 100px;
+}
+
+.booking-form {
+  width: 1280px;
+  height: 890px;
+  margin: 0 auto;
+  background-color: yellowgreen;
+}
+
+nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #ffffff solid 2px;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../assets/icons/logo-white.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+nav .links {
+  width: 525px;
+  height: 42px;
+  display: flex;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+nav .links a {
+  text-decoration: none;
+  color: #ffffff;
+  align-self: center;
+  margin: auto;
+  border-right: solid 1px #79addc;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+nav .links .contact {
+  border-right: none;
+}
+
+.hero-content {
+  width: 475px;
+  height: 285px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.hero-content h1 {
+  font-family: ProximaNova;
+  font-size: 60px;
+  color: #ffffff;
+  text-align: center;
+}
+.hero-content p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.hero-content .readmore-button {
+  width: 122px;
+  height: 40px;
+  background-color: #79addc;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.hero-content .readmore-button p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  padding-top: 10px;
 }

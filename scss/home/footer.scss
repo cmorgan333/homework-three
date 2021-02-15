@@ -1,0 +1,34 @@
+footer {
+  width: 1280px;
+  height: 100px;
+  background-color: $blue;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .icon {
+    width: 92px;
+    height: 42px;
+    margin-left: 150px;
+    background-image: url(../assets/icons/logo-white.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .copywright {
+    width: 216px;
+    height: 14px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 12px;
+  }
+
+  .socials {
+    width: 121px;
+    height: 23px;
+    background-color: purple;
+    margin-right: 100px;
+  }
+}
